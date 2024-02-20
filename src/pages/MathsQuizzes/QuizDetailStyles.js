@@ -1,0 +1,97 @@
+
+const styles = {
+  quizContainer: {
+    maxWidth: '800px',
+    margin: '2em auto',
+    padding: '20px',
+    boxShadow: '0 0 20px rgba(0, 0, 0, 0.1)',
+    borderRadius: '15px',
+    position: 'relative',
+  },
+
+  questionContainer: {
+    backgroundColor: '#ffffff', 
+    padding: '20px',
+    borderRadius: '15px',
+    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    marginBottom: '20px',
+  },
+  questionHeader: {
+    marginBottom: '20px',
+    color: '#ff6600', 
+    fontSize: '36px',
+    fontWeight: 'bold',
+    textTransform: 'uppercase',
+  },
+  questionText: {
+    fontSize: '28px',
+    margin: '1em auto',
+  },
+  optionList: {
+    listStyleType: 'none',
+    padding: '0',
+  },
+  optionItem: {
+    marginBottom: '10px',
+    padding: '15px',
+    boxShadow:'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+    borderRadius: '8px',
+    backgroundColor: '#ffffff', 
+    cursor: 'pointer',
+    transition: 'background-color 0.3s',
+    fontSize: '18px',
+    fontWeight: 'bold',
+    color: '#333333', 
+  },
+  scoreContainer: {
+    backgroundColor: '#ffffff', 
+    padding: '20px',
+    borderRadius: '15px',
+    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    textAlign: 'center',
+  },
+  restartButton: {
+    backgroundColor: '#ff4081', 
+    color: '#ffffff',
+    padding: '15px 30px',
+    fontSize: '18px',
+    border: 'none',
+    borderRadius: '8px',
+    cursor: 'pointer',
+    transition: 'background-color 0.3s',
+    marginTop: '20px',
+  },
+  buttonContainer:{
+      display: 'flex',
+      justifyContent: 'space-between',
+      marginTop: '20px',
+    
+  },
+  backButton: {
+    backgroundColor: '#ffa500', 
+    color: '#ffffff',
+    padding: '15px 30px',
+    fontSize: '18px',
+    border: 'none',
+    borderRadius: '8px',
+    cursor: 'pointer',
+    transition: 'background-color 0.3s',
+    marginRight: '10px',
+    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+    outline: 'none',
+  },
+  nextButton: {
+    backgroundColor: '#2ecc71', 
+    color: '#ffffff',
+    padding: '15px 30px',
+    fontSize: '18px',
+    border: 'none',
+    borderRadius: '8px',
+    cursor: 'pointer',
+    transition: 'background-color 0.3s',
+    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+    outline: 'none',
+  },
+};
+
+export default styles;
